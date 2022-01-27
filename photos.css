@@ -1,0 +1,23 @@
+#app {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 5px;
+  
+}
+.divWithImg , .divSecondImg {
+    border: 2px solid black;
+}
+.title, .secondTitle {
+    text-align: center;
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+.photo, .secondPhoto {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+#btn {
+    margin-top: 10px;
+    border: 2px solid black;
+}
